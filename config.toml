@@ -1,0 +1,17 @@
+relativeURLs = true
+googleAnalytics = "UA-159072578-1"
+title = "Todd Lensman"
+theme = "academimal"
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[author]
+name = "Todd Lensman"
+
+[params]
+# title = ""
+# institution = ""
+logo = "headshot.jpg"
+# Twitter = ""
+Email = "tlensman@mit.edu"

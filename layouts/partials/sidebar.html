@@ -1,0 +1,50 @@
+<!-- <div class="verticalLine"> -->
+<h1 class="sidebar">{{ .Site.Title }}</h1>
+<!-- <h1 class="sidebar"><a class="sidebar" href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1> -->
+<!-- <h1 style="font-size:18px; font-style:italic;">{{ .Site.Params.title }} <br/>
+{{ .Site.Params.institution }}</h1> -->
+<hr/>
+
+<p class="sidebar"><a class="sidebar" href="{{ "/" | relURL }}">Home</a></p>
+
+{{ $.Scratch.Set "currentPageTitle" .Title }}
+
+{{ range .Site.Menus.main }}
+<p class="sidebar"><a class="sidebar" href="{{ .URL | relURL }}">{{- .Name -}}</a></p>
+
+	{{ if and (eq "Research" ($.Scratch.Get "currentPageTitle")) (eq "Research" .Title) }}
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorksInProgress" | relURL }}">Works in Progress</a></p>
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
+	<!-- <p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#Publications" | relURL }}">Publications</a></p> -->
+	{{end}}
+
+	{{ if and (eq "Notes" ($.Scratch.Get "currentPageTitle")) (eq "Notes" .Title) }}
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "notes/#Economics" | relURL }}">Economics</a></p>
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "notes/#Mathematics" | relURL }}">Mathematics</a></p>
+	{{end}}
+
+{{ end }}
+
+<p class="sidebar"><a class="sidebar" href="https://drive.google.com/file/d/1YEKMFF6TWvBJFdOnz60QAOI9ZN5JSr_I/view?usp=sharing" target="_blank">CV</a></p>
+
+<!-- <p class="sidebar">
+<img src="{{ "/icons/at-sign.svg" | relURL }}" class="octicons">
+<a class="sidebar" href="mailto:{{.Site.Params.Email }}" target="_blank">
+{{ .Site.Params.Email }}
+</a></p> -->
+
+<!-- <p class="sidebar">
+	<img src="{{ "/icons/twitter-white.png" | relURL }}" class="octicons">
+<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
+@{{ .Site.Params.Twitter }}
+</a></p> -->
+
+<!-- {{ with .Site.Params.logo }}
+{{ if (eq "Homepage" ($.Scratch.Get "currentPageTitle")) }}
+<img src="{{ . | relURL }}" alt="Logo" />
+{{ else }}
+<img class="nothomepage" src="{{ . | relURL }}" alt="Logo" />
+{{ end }}
+{{ end }} -->
+
+<!-- </div> -->

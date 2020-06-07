@@ -1,0 +1,19 @@
+worksinprogress:
+
+- title: "Jointly Optimal Unemployment Insurance and Income Taxation"
+  coauthors: "Maxim Troshkin"
+
+- title: "Optimal Taxation of Firms and People in General Equilibrium"
+  coauthors: "Rebekah Dix"
+
+workingpapers:
+
+- title: "Implications of Uncertainty for Optimal Policies"
+  pdflink: "https://drive.google.com/file/d/17voLjkk_sy7zzOgGNjI8UxMM69mE4Qb0/view?usp=sharing"
+  slideslink: "https://drive.google.com/file/d/1f8PHzt-juPE1GIuk1UA9P3XVMTPOUbRt/view?usp=sharing"
+  status: "Revise & Resubmit, Journal of Economic Theory"
+  coauthors: "Maxim Troshkin"
+  abstract: >
+    We study the implications of a broader view of uncertainty for social insurance and redistribution in otherwise conventional macro public finance environments, with heterogeneous agents and with private idiosyncratic shocks. We show that broader uncertainty manifests as endogenous lack of commitment on the part of the government, leading to the optimality of periodically-reformed policies. Periodic reforms lead to simplified policies that are not fully state-contingent and at times lose full history dependence. Simplified policies can be characterized without complete backward induction to compute promised utilities when the time horizon is finite. However, linear policies can be far from optimal. Equilibria in decentralized versions of these economies are not generally efficient, implying a meaningful role for government provision of insurance, unlike in conventional environments with a narrower view of uncertainty.
+
+# publications:
