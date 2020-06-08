@@ -376,7 +376,6 @@ header {
   background: #ffffff;
   top: 2.5vw;
   left: 5vw;
-  bottom: 0px;
   padding: 2.5vw;
   width: 20vw;
   height: 100vh;
@@ -435,7 +434,7 @@ header ul a strong {
 section {
   position: static;
   float: right;
-  width: 60vw;
+  width: 62vw;
   padding: 2.5vw;
   margin: 2.5vw 5vw 0vw 0vw;
   word-wrap: break-word;
