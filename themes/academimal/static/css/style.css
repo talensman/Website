@@ -282,7 +282,9 @@ h2 {
   font-weight: 400;}
 
 h3, h4, h5, h6 {
-  color: #494949; }
+  color: #4a4a4a;
+  /* font-weight: 600; */
+}
 
 h1.sidebar {
   color: #4a4a4a;
@@ -372,8 +374,8 @@ header {
   float: left;
   position: fixed;
   background: #ffffff;
-  top: 0px;
-  left: 0px;
+  top: 2.5vw;
+  left: 5vw;
   bottom: 0px;
   padding: 2.5vw;
   width: 20vw;
@@ -433,8 +435,9 @@ header ul a strong {
 section {
   position: static;
   float: right;
-  width: 70vw;
+  width: 60vw;
   padding: 2.5vw;
+  margin: 2.5vw 5vw 0vw 0vw;
   word-wrap: break-word;
   text-align: justify; }
 
@@ -503,13 +506,14 @@ footer {
     left: 0;
     top: 0;
     padding: 8vw;
-    padding-bottom: 8vw;}
+    padding-bottom: 0vw;}
 
   section {
     float: none;
     position: static;
     width: auto;
-    padding: 8vw;}
+    padding: 8vw;
+    padding-top: 8vw;}
 
   header ul {
     width: 99%; }
