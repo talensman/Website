@@ -1,5 +1,5 @@
 relativeURLs = true
-googleAnalytics = "UA-159072578-1"
+# googleAnalytics = "UA-159072578-1"
 title = "Todd Lensman"
 theme = "academimal"
 sectionPagesMenu = "main"
