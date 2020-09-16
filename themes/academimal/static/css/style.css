@@ -488,7 +488,7 @@ footer {
 }
 
 
-@media print, screen and (max-width: 810px) {
+@media print, screen and (max-width: 850px) {
 
   body {
     position: static;
